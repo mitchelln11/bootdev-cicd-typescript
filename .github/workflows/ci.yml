@@ -42,3 +42,5 @@ jobs:
       - name: Style
         run: npm run format:check
 
+      - name: CI Linting
+        run: npm run lint
